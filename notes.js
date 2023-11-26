@@ -66,7 +66,53 @@
 
 // console.log(value, typeof(value));
 
-let sentence = `apple@123 is a fruit`;
+// let sentence = `apple@123 is a fruit`;
 
 // console.log(sentence[9]);
 
+// console.log(sentence.slice(0, 9));
+
+// console.log(sentence.split('@'));
+
+// console.log(sentence.split(' ').join(', '));
+
+let numbers = [33, 22, 12, 56, 34];
+
+// console.log(numbers.length);
+
+// for loop
+// for (let index = 0; index < numbers.length; index++){
+//     console.log(numbers[index]);
+// }
+
+
+// for loop
+// let index = 0;
+// for (; index < numbers.length; ){
+//     console.log(numbers[index]);
+//     index++;
+// }
+
+// // while loop
+// let index = 0;
+// while ( index < numbers.length ){
+//     console.log(numbers[index]);
+//     index++;
+// }
+
+// do...while loop
+// let index = 0;
+// do {
+//     console.log(numbers[index]);
+//     index++;
+// } while (index < numbers.length);
+
+// // for...in loop
+// for (let index in numbers){
+//     console.log(numbers[index]);
+// }
+
+// // for...of loop
+// for (let value of numbers){
+//     console.log(value);
+// }
